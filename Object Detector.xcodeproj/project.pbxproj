@@ -14,6 +14,7 @@
 		B5A3919D1F01122100679C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A3919B1F01122100679C54 /* LaunchScreen.storyboard */; };
 		B5A391A81F01122100679C54 /* Object_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A391A71F01122100679C54 /* Object_DetectorTests.swift */; };
 		B5A391B31F01122100679C54 /* Object_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A391B21F01122100679C54 /* Object_DetectorUITests.swift */; };
+		B5A391C31F0123F700679C54 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5A391C21F0123F700679C54 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B5A391AE1F01122100679C54 /* Object DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Object DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A391B21F01122100679C54 /* Object_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object_DetectorUITests.swift; sourceTree = "<group>"; };
 		B5A391B41F01122100679C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A391C21F0123F700679C54 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = "../../Dog Rater/Dog Rater/Inceptionv3.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B5A391921F01122100679C54 /* AppDelegate.swift */,
 				B5A391941F01122100679C54 /* ViewController.swift */,
 				B5A391961F01122100679C54 /* Main.storyboard */,
+				B5A391C21F0123F700679C54 /* Inceptionv3.mlmodel */,
 				B5A391991F01122100679C54 /* Assets.xcassets */,
 				B5A3919B1F01122100679C54 /* LaunchScreen.storyboard */,
 				B5A3919E1F01122100679C54 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5A391951F01122100679C54 /* ViewController.swift in Sources */,
+				B5A391C31F0123F700679C54 /* Inceptionv3.mlmodel in Sources */,
 				B5A391931F01122100679C54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +528,7 @@
 				B5A391B91F01122100679C54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5A391BA1F01122100679C54 /* Build configuration list for PBXNativeTarget "Object DetectorTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				B5A391BC1F01122100679C54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5A391BD1F01122100679C54 /* Build configuration list for PBXNativeTarget "Object DetectorUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				B5A391BF1F01122100679C54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
